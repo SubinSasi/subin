@@ -54,9 +54,17 @@
 														<a class="splitting-text-anim-2" data-splitting="chars" href="index.php">Home</a>
 													</li>
 													<li class="menu-item">
-														<a class="splitting-text-anim-2" data-splitting="chars" href="works.php">Services</a>
+														<a class="splitting-text-anim-2" data-splitting="chars" href="#profile">Profile</a>
 													</li>
-													
+													<li class="menu-item">
+														<a class="splitting-text-anim-2" data-splitting="chars" href="#services">Services</a>
+													</li>
+													<li class="menu-item">
+														<a class="splitting-text-anim-2" data-splitting="chars" href="works.php">Portfolio</a>
+													</li>
+													<li class="menu-item">
+														<a class="splitting-text-anim-2" data-splitting="chars" href="#contact">Contact</a>
+													</li>
 												</ul>
 											</div>
 

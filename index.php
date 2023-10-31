@@ -28,7 +28,7 @@
 
   <!-- Favicon -->
 	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
 
 </head>
 
@@ -90,7 +90,7 @@
     							<a target="_blank" href="https://drive.google.com/" class="btn">
     								<span>Download CV</span>
     							</a>
-    							<a href="#skills-section" class="btn-lnk"> My Skills </a>
+    							<a href="#profile" class="btn-lnk"> My Skills </a>
     						</div>
     					</div>
     					<div class="slide scrolla-element-anim-1 scroll-animate" data-animate="active">
@@ -129,7 +129,7 @@
 
 
       <!-- Section - Pricing -->
-			<section class="lui-section lui-gradient-bottom" id="pricing-section">
+			<section class="lui-section lui-gradient-bottom" id="profile">
 
         <!-- Pricing -->
 				<div class="v-line v-line-right">
@@ -273,7 +273,7 @@
 
 
       <!-- Section - Skills -->
-			<section class="lui-section lui-gradient-center" id="skills-section">
+			<section class="lui-section lui-gradient-center" id="services">
 
         <!-- Heading -->
         <div class="lui-heading">
@@ -571,7 +571,7 @@
 
 
       <!-- Section - Contacts -->
-			<section class="lui-section lui-gradient-bottom" id="contact-section">
+			<section class="lui-section lui-gradient-bottom" id="contact">
 
         <!-- Heading -->
         <div class="lui-heading">
@@ -606,7 +606,7 @@
                       <span> Address </span>
                     </div>
                     <div class="lui-text">
-                      <span> North Tower, Toronto, Canada </span>
+                      <span> Calicut, Kerala, India </span>
                     </div>
                   </div>
                   <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
@@ -628,7 +628,7 @@
                       <span> Email </span>
                     </div>
                     <div class="lui-text">
-                      <span> zoe.miller@mydomain.com </span>
+                      <span> subinsasi0@gmail.com </span>
                     </div>
                   </div>
                   <div class="numbers-item scrolla-element-anim-1 scroll-animate" data-animate="active">
@@ -639,7 +639,7 @@
                       <span> Phone </span>
                     </div>
                     <div class="lui-text">
-                      <span> +1 900 - 900 - 9000 </span>
+                      <span> +91 8281 96 1011 </span>
                     </div>
                   </div>
                 </div>
@@ -650,12 +650,18 @@
                 <div class="contacts-form scrolla-element-anim-1 scroll-animate" data-animate="active">
                   <div class="bg-img" style="background-image: url(assets/images/pat-1.png);"></div>
                   <div class="contacts-form">
-                    <form id="cform" method="post">
+
+                    <form action="https://api.web3forms.com/submit" method="POST">
                       <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                           <div class="group">
                             <label>
                               Your Full Name <b>*</b>
+
+                              <input type="hidden" name="access_key" value="2bff22eb-1997-4d51-bd47-21193e3889ce">
+                              <input type="hidden" name="subject" value="New Submission from Your Website">
+                              <input type="hidden" name="from_name" value="Subin Sasi">
+
                               <input type="text" name="name" >
                             </label>
                           </div>
@@ -672,7 +678,7 @@
                           <div class="group">
                             <label>
                               Your Subject <b>*</b>
-                              <input type="text" name="subject" >
+                              <input type="text" name="Subject" >
                             </label>
                           </div>
                         </div>
@@ -685,13 +691,14 @@
                           </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
-                          <div class="terms-label">* Accept the terms and conditions.</div>
-                          <a href="#" class="btn" onclick="$('#cform').submit(); return false;">
+                          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                          <button type="submit">
                             <span>Send Message</span>
-                          </a>
+                          </button>
                         </div>
                       </div>
                     </form>
+
                     <div class="alert-success" style="display: none;">
                       <p>Thanks, your message is sent successfully.</p>
                     </div>
